@@ -1,0 +1,134 @@
+/* ESTILOS GENERALES */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Encabezado */
+.YT {
+    width: 100%;
+}
+
+/* Titulo */
+.Titulo {
+    background-color: #28a900;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-top: 5px solid #222;
+}
+
+.Titulo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.Titulo h2 {
+    margin: 5px 0 0;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+/* menu de navegación */
+.header-links {
+    background-color: #222;
+    text-align: center;
+    padding: 12px;
+}
+
+.header-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-size: 13px;
+ 
+}
+
+.header-links a:hover {
+    color: #28a900;
+
+}
+
+/* contenido principalL */
+main {
+    width: 100%;
+    flex: 1;
+    padding: 25px 5%;
+}
+
+/* Seccion */
+.contenido {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+/* 1 sección*/
+.Seccion {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.10);
+}
+
+.Info h2 {
+    color: #329b32;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.Info p {
+    color: #555;
+    font-size: 14px;
+}
+
+/* 2 sección */
+.segunda-seccion {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.10);
+}
+
+.segunda-seccion h2 {
+    color: #329b32;
+}
+
+/* Aside */
+.lateral {
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.lateral h2 {
+    color: #329b32;
+}
+
+/* pie de pagina */
+.footer {
+    width: 100%;
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.footer p {
+    margin: 0;
+}
